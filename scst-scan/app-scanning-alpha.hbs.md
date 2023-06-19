@@ -136,7 +136,7 @@ To install SCST - Scan 2.0:
         'PackageInstall' resource install status: ReconcileSucceeded
     ```
 
-3. (Optional) If you have Artifact Metadata Repository Observer installed, you will need to restart it to register the new ImageVulerabilityScan Custom Resource that was installed with SCST - Scan 2.0
+3. (Optional) If you have Artifact Metadata Repository Observer installed, you will need to restart it to observe the new ImageVulerabilityScan Custom Resource that was installed with SCST - Scan 2.0
 
     ```console
     kubectl -n amr-observer-system rollout restart deployment amr-observer-controller-manager
